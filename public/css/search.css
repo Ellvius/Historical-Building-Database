@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('../assets/Picture1.png');
+    background-color: red;
+    height : 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Header styles */
+header {
+    background-color: #00000066;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Results section styles */
+#results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Result item styles */
+.result {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0000006a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Result item styles */
+.result {
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.result p {
+    margin-bottom: 5px;
+}
+
+.result img {
+    float: left;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.result .info {
+    margin-top: 20px;
+}

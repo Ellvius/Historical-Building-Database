@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-image: url("../assets/Picture1.png");
+    height : 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  h1{
+    display: block;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 10px;
+    padding-bottom: 20px;
+    color: azure;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .buildingList{
+
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+
+  .mb-3 {
+    display: flex;
+
+  }
+  input {
+    width: 50%;
+  }
+
+  label {
+    width: 12rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: left;
+    color: white;
+  }
+  button {
+   width: 50%;
+  }
+
+  footer {
+    margin-top: 8rem;
+    text-align: left;
+    color:azure;
+    padding-left: 10px;
+
+  }
+  
+  
